@@ -1,0 +1,13 @@
+<h1 class="ok">One</h1>
+<h1 class="ok">Two0</h1>
+<h1 class="ok">Three</h1>
+<h1 class="ok">Four</h1>
+
+<script>
+    var Div=document.querySelectorAll(".ok")
+    for(i=0;i<Div.length;i++)
+    {
+        console.log(Div[i].textContent)
+
+    }
+</script>
